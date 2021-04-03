@@ -15,7 +15,3 @@ Training :
 
 Testing :
    To test the model on test data, you just need to call test(model) function and it will create a labels.txt file in the current directory.
-
-
-log_x_layers:
- The directories contain the optimization results. For example, log_3_layers contains three files, each contains 72 rows of train-cal accuries of the 3 layer model with an activation function specified on the directory name. They are created using save(..) function in train.py. I could not add every result to the report, that is why I put these logs. I also plotted every training, but due to its size, I did not add to submission but all can be accesed via : https://drive.google.com/drive/folders/1AdWtU8uy0mVOxEHF600j0wXIiNbfNhQj?usp=sharing
