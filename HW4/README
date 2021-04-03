@@ -1,0 +1,8 @@
+nb.py:
+	I have implemented helper functions to news classification task.
+	test_accuracy(..): predicts the label and compares with the ground truth, prints the accuracy and returns it.
+	get_data and split_data is to retrive the data and split the sentences into words.
+
+	news_classify() : is the main function for the training and testing the news categories. The function can be called directly when it is in the same directory with hw4_data. It takes around 2 minutes to finish training and testing. I put the calling into comment so that mini_test kind of testing would work fast.
+
+	I got 713/745 accuracy on the test set.
